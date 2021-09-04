@@ -1,0 +1,12 @@
+{"i","dùng","điện_thoại","nó","sản_phẩm","con_này","cái_này","cái_kia",
+"đây_là","samsung","pay","ios","tôi","iphone","mini","pin","màn_hình",
+"nokia","xiaomi","oppo","huawai","andriod","vsmart","thông số","pro"
+,"pro_max","pin", "selfie", "trước", "sau","camera","mà","người_dùng",
+"trải_nghiệm","đó","có","và","này","rất","v.v.", "sprint","a460","trò_chơi","nhưng",
+"3588i","3599i","nextel","SIM", "AT&T","pantach","web","chrome","vv","vvv","v","xin chào","ram",
+"cặp","dịch vụ","nghĩ","trong","nhà","cập_nhật","zoom","ảnh","chúng","ta","hiển_thị","một",
+"hai","ba","bốn","năm","sáu","bảy","tám","chín","mười","trải_nghiệm","trông","là","thì",
+"với","bác","hoặc","đều","đôi_khi",'tôi','nghĩ','màn_hình','của','nó','tôi','sẽ','xem','điện_thoại','cái_này',
+    'tôi','kiểu_dáng','này','trông','người_dùng','trải_nghiệm','hình_ảnh','nhất',
+    'selfie','trong','điều_kiện','ánh_sáng','trong','nhà','trải_nghệm','dùng_thử','họ',
+    'là','này','nữa','phải'}

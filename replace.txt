@@ -1,0 +1,9 @@
+{
+	"hi":"Xin chào",
+  	"hello":"Xin chào",
+	"Hi":"Xin chào",
+	"Hello":"Xin chào",
+	"hey":"Xin chào",
+	"bye":"Tạm biệt",
+	"good bye":"Tạm biệt"
+}

@@ -1,0 +1,26 @@
+{
+        "contractions" :{
+                 "dk":"được",
+                 "ok":"tốt",
+                 "good" : "tốt",
+                 "ss"    : "sammsung",
+                 "hw" :"huawei",
+                 "dt" :"điện thoại",
+                 "gg" : "google",
+                 "perfect" :"hoàn hảo",
+                 "perfects" : "rất hoàn hảo",
+                 "pro" : "quá tốt",
+                 "rất ngon":"rất tốt",
+                 "ko":"không",
+                 "wifi":"mạng",
+                 "game":"trò chơi",
+                 "kg" : "không",
+                 "k" : "không",
+                 "nó" :"máy này",
+                 "dc" :"được",
+                 "hi" :"xin chào",
+                 "hello":"xin chào",
+                 "lag" : "giật giật",
+                 "k"   :"không"
+                  }
+}

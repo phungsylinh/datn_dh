@@ -1,0 +1,97 @@
+{
+	"intents":[
+	{
+		"tag":"greeting",
+		"patterns":["Xin chào","Hi","Hello","Hey","êu","Hello Xin chào","Hi Xin chào","chào","chào bạn"],
+		"responses":["Hello, tôi có thể giúp gì cho bạn",
+			    "Xin chào bạn, tôi có thể giúp gì cho bạn",
+			    "Hi, Mình là Sam, mình có thể giúp gì cho bạn"]
+	},
+	{
+		"tag":"give_name",
+		"patterns":["tôi tên là name","mình là name","Tên của tôi là name","họ và tên của tôi là name","my name is name","name"],
+		"responses":["Hello name","Hi name","Bạn name có một cái tên rất đẹp"]
+	},
+	{
+		"tag":"review",
+		"patterns":["Sản phẩm này quá xấu","Tôi không thích loại sản phẩm này trông nó xấu","nó thật tệ",
+					"tôi thấy màu này trông xấu","Tôi rất thích nó","Trông nó thật là đẹp","Nhìn nó rất đẹp",
+					"tôi nghĩ nó quá đắt","rất tốt","với tôi nó quá đắt"],
+		"responses":[["Cảm ơn bạn đã đưa ra nhận xét, chúng tôi sẽ cố gắng khắc phục nó"],
+					["Rất vui vì bạn đã hài lòng với sản phẩm của chúng tôi"]]
+	},
+	{
+		"tag":"order",
+		"patterns":["Tôi sẽ lấy nó","Ok tôi sẽ lấy sản phẩm này","tôi sẽ lấy sản phẩm này","tôi sẽ mua sản phẩm này","tôi sẽ mua nó",
+					"tôi mua nó","tôi lấy nó","lấy nó cho tôi"],
+		"responses":["Cảm ơn bạn, bạn có thể cho chúng tôi số điện thoại hay email để tiện giao hàng không ạ!",
+					"Cảm ơn quý khách, quý khách vui lòng đê lại số điện thoại hay email ạ !"]
+	},
+	{
+		"tag":"completeorder",
+		"patterns":["Bạn có thể giao hàng vào thứ bảy ","Bạn có thể giao hàng vào ngày nào cũng được"],
+		"responses":["Vâng thưa quý khách, bạn có cần gì thêm không."]
+	},
+	{
+		"tag":"thanks",
+		"patterns":["Thanks", "Thank you", "Cảm ơn bạn","cám ơn bạn rất nhiều","tôi thực sự cám ơn bạn","Cảm ơn","cám ơn"],
+		"responses":["Tôi rất vui vì đã có thể giúp đỡ bạn!", "Any time!", "My pleasure"]
+	},
+	{
+		"tag": "goodbye",
+      	"patterns": ["Bye", "See you later", "Goodbye","hẹn gặp lại bạn","tạm biệt","tạm biệt bạn"],
+       	"responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon.","Chúc bạn một ngày vui vẽ",
+       	            "cảm ơn vì đã ghe thăm vửa hàng của chúng tôi.","Hẹn gặp lại quý khách lần sau"]
+	},
+	{
+		"tag":"infor_product",
+		"patterns":["Tôi muốn xem thông tin về product","Tôi đang quan tâm tới product","Tôi muốn mua  product","Tôi sẽ mua thêm cái product"
+					,"Tôi quan tấm tới product","tôi muốn mua product","Tôi muốn xem thông tin của product","tôi quan tâm về product","quân tâm product"],
+		"responses":["product có thông tin: \n information \n được bán với giá price",
+					"product bên chúng tôi đang được bán với giá price và có thông số kỹ thuật:\n information"]
+	},
+	{
+		"tag":"get_contact",
+		"patterns":["Địa chỉ email của tôi là email_address","email_address","phone_number",
+					"số điện thoại của tôi là phone_number","số điện thoại là phone_number và địa chỉ email_address",
+					"email_address và phone_number","phone_number và email_address","phone_number là số của tôi"],
+		"responses":["Cảm ơn quý khách, chúng tôi sẽ gửi thông tin sản phẩm tới bạn sớm nhất",
+					"Cảm ơn quý khách, chúng tôi sẽ liên lạc với bạn sớm nhất có thể."]
+	},
+	{
+		"tag":"negotiate",
+		"patterns":["Có thể giảm giá không","có bất kỳ khuyến mại nào không",
+					"có chương chình khuyến mại nào cho sản phẩm này không","Bên bạn có giảm giá không","Bên bạn có giảm giá không",
+					"sản phẩm này bên bạn có giảm giá không","Nó được giảm giá chứ","đang được giảm giá phải không"],
+		"responses":["Xin lỗi quý khách chúng tôi không thể giảm giá cho sản phẩm này",
+					"Xin lỗi quý khách bên mình không có chương chình khuyến mãi nào cho sản phẩm này"]
+	},
+	{
+		"tag":"returns",
+		"patterns":["Tôi muốn trả lại hàng","Tôi muốn trả lại sản phẩm","Tôi muốn trả lại sản phẩm đã mua"],
+		"responses":["Qúy khách vui lòng cho xin số điện thoại hoặc email khi mua hàng để bên mình xử lý ạ"]
+	},
+	{
+		"tag":"address",
+		"patterns":["Địa chỉ của tôi là address","address","bạn có thể giao hàng đến address","Tôi sống ở address","tôi sống tại address",
+					"địa chỉ của tôi nằm ở address","tôi sống ở địa chỉ address"],
+		"responses":["Vâng thưa quý khách"]
+	},
+	{
+		"tag":"healthy",
+		"patterns" :["hôm nay của bạn như thế nào","công việc vẫn ổn chứ","bạn có khỏe không","khỏe không","như thế nào hôm nay",
+					"vẫn ổn chứ"],
+		"responses":["Mình vẫn rất khỏe cảm ơn bạn. Bạn có khỏe không","Mình vẫn khỏe nè, còn bạn như thê nào"]
+	},
+	{
+		"tag":"healthy_res",
+		"patterns" :["tôi vẫn khỏe","mình ổn","tôi ổn","vẫn bình thường"],
+		"responses":["wow. Tôi có thể giúp gì được cho bạn"]
+	},
+	{
+		"tag":"address_cop",
+		"patterns" :["cửa hàng của bạn ở đâu","địa chỉ của cửa hàng ở đâu","cửa hàng nằm ở đâu","bạn ở đâu"],
+		"responses":["Cửa hàng của mình nằm ở số 2 đường Kim Giang, quận Hoàn Mai, thành phố Hà Nội. Tôi sẽ rất vui khi bạn ghé thăm"]
+	}
+ ]
+}
